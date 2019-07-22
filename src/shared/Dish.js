@@ -6,7 +6,27 @@ export const Dishes = [
         category: 'mains',
         label: 'hot',
         price: '4.99',
-        description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.'
+        description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
+        comments: [
+            {
+                id: 0,
+                comment: 'Imagine all the etables, living in conFusion',
+                author: 'John Lemon',
+                date: 'Oct 17, 2012' 
+            },
+            {
+                id: 1,
+                comment: 'Sends anyone to heaven',
+                author: 'Paul McVites',
+                date: 'Sept 06, 2014' 
+            },
+            {
+                id: 2,
+                comment: 'Eat Uthapizza, just eat it!',
+                author: 'Micheal Jaikishan',
+                date: 'Feb 2014, 2015' 
+            }
+        ]
     },
     {
         id: 1,
@@ -15,7 +35,27 @@ export const Dishes = [
         category: 'appetizer',
         label:'',
         price:'1.99',
-        description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce'   
+        description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce',
+        comments: [
+            {
+                id: 0,
+                comment: 'Imagine all the etables, living in conFusion',
+                author: 'John Lemon',
+                date: 'Oct 17, 2012' 
+            },
+            {
+                id: 1,
+                comment: 'Sends anyone to heaven',
+                author: 'Paul McVites',
+                date: 'Sept 06, 2014' 
+            },
+            {
+                id: 2,
+                comment: 'Eat Zucchipakoda, just eat it!',
+                author: 'Micheal Jaikishan',
+                date: 'Feb 2014, 2015' 
+            }
+        ]
     },
     {
         id: 2,
@@ -24,7 +64,27 @@ export const Dishes = [
         category: 'appetizer',
         label:'New',
         price:'1.99',
-        description:'A quintessential ConFusion experience, is it a vada or is it a donut?'  
+        description:'A quintessential ConFusion experience, is it a vada or is it a donut?',
+        comments: [
+            {
+                id: 0,
+                comment: 'Imagine all the etables, living in conFusion',
+                author: 'John Lemon',
+                date: 'Oct 17, 2012' 
+            },
+            {
+                id: 1,
+                comment: 'Sends anyone to heaven',
+                author: 'Paul McVites',
+                date: 'Sept 06, 2014' 
+            },
+            {
+                id: 2,
+                comment: 'Eat Vadonut, just eat it!',
+                author: 'Micheal Jaikishan',
+                date: 'Feb 2014, 2015' 
+            }
+        ]
     },
     {
         id: 3,
@@ -33,6 +93,26 @@ export const Dishes = [
         category: 'dessert',
         label:'',
         price:'2.99',
-        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms' 
+        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
+        comments: [
+            {
+                id: 0,
+                comment: 'Imagine all the etables, living in conFusion',
+                author: 'John Lemon',
+                date: 'Oct 17, 2012' 
+            },
+            {
+                id: 1,
+                comment: 'Sends anyone to heaven',
+                author: 'Paul McVites',
+                date: 'Sept 06, 2014' 
+            },
+            {
+                id: 2,
+                comment: 'Eat ElaiCheese Cake, just eat it!',
+                author: 'Micheal Jaikishan',
+                date: 'Feb 2014, 2015' 
+            }
+        ]
     }
 ]
